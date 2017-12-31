@@ -8,8 +8,13 @@
 </ion-header>
 
 <ion-content padding>
-
-  Teste
-
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let campeao of campeoes" col-12 col-md-4>
+        <card-campeao [CampeaoAtual]="campeao"></card-campeao>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
 
 </ion-content>

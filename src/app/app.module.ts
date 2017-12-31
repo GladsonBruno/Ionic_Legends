@@ -3,7 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
+import { CardCampeaoComponent } from '../components/card-campeao/card-campeao';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CampeoesComponentPage } from '../pages/campeoes-component/campeoes-component';
@@ -12,7 +12,8 @@ import { CampeoesComponentPage } from '../pages/campeoes-component/campeoes-comp
   declarations: [
     MyApp,
     HomePage,
-    CampeoesComponentPage
+    CampeoesComponentPage,
+    CardCampeaoComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +23,8 @@ import { CampeoesComponentPage } from '../pages/campeoes-component/campeoes-comp
   entryComponents: [
     MyApp,
     HomePage,
-    CampeoesComponentPage
+    CampeoesComponentPage,
+    CardCampeaoComponent
   ],
   providers: [
     StatusBar,
