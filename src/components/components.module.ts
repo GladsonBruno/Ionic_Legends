@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CardCampeaoComponent } from './card-campeao/card-campeao';
+import { HabilidadeComponent } from './habilidade/habilidade';
 @NgModule({
-	declarations: [CardCampeaoComponent],
+	declarations: [CardCampeaoComponent,
+    HabilidadeComponent],
 	imports: [],
-	exports: [CardCampeaoComponent]
+	exports: [CardCampeaoComponent,
+    HabilidadeComponent]
 })
 export class ComponentsModule {}

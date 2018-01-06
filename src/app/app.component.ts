@@ -4,7 +4,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { CampeoesComponentPage } from '../pages/campeoes-component/campeoes-component';
+import { CampeoesPage } from '../pages/campeoes-page/campeoes-page';
+import {CampeoesDetailPage} from '../pages/campeoes-detail/campeoes-detail';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,7 @@ export class MyApp {
 
       this.pages = [
         { titulo: 'Home', component: HomePage },
-        { titulo: 'Campeões', component: CampeoesComponentPage }
+        { titulo: 'Campeões', component: CampeoesPage }
       ]
     });
   }
@@ -38,5 +39,6 @@ export class MyApp {
 
     this.nav.setRoot(page.component);
   }
-}
+
+  }
 

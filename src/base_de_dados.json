@@ -1,0 +1,76 @@
+{
+    "Campeoes": [
+        {   "Nome": "Darius",
+            "Imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+            "Regiao": "Noxus",
+            "Apelido": "A Mão de Noxus",
+            "Habilidade_Passiva": [{
+                "titulo": "Hemorragia",
+                "descricao": "Darius estrategicamente acerta seus ataques, fazendo com que o alvo sangre. Esse efeito acumula-se até cinco vezes. Inimigos que chegarem ao máximo de acúmulos de Hemorragia farão com que Darius receba o Poder de Noxus, aumentando drasticamente o dano que causa.",
+                "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/passive/Darius_PassiveBuff.png"
+            }]  ,
+            "Habilidades":[
+                {
+                    "titulo": "Dizimar",
+                    "custo": "Custo: 30/35/40/45/50 de Mana",
+                    "descricao": "Darius pega impulso e golpeia com seu machado em movimento circular. Inimigos atingidos pela lâmina recebem mais dano que aqueles atingidos pelo cabo. Darius cura-se com base nos campeões inimigos atingidos pela lâmina.",
+                    "alcance": "1",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/DariusCleave.png"
+                },{
+                    "titulo": "Ataque Mutilador",
+                    "custo": "30 de mana",
+                    "descricao": "O próximo ataque de Darius atingirá uma artéria importante do inimigo. Enquanto sangra, sua Velocidade de Movimento é reduzida.",
+                    "alcance": "300",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/DariusNoxianTacticsONH.png"
+                },{
+                    "titulo": "Apreeder",
+                    "custo": "45 de mana",
+                    "descricao": "Darius afia seu machado, fazendo com que o seu Dano Físico ignore passivamente um percentual da Armadura de seu alvo. Quando ativado, Darius ataca seus inimigos com o gancho do seu machado e os puxa em sua direção.",
+                    "alcance": "535",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/DariusAxeGrabCone.png"
+                },
+                {   "titulo":"Guilhotina de Noxus",
+                    "custo": "100/100/0 de Mana",
+                    "descricao": "Darius salta na direção de um campeão inimigo e o atinge com um golpe letal, causando Dano Verdadeiro. Este dano aumenta com cada acúmulo de Hemorragia presente no alvo. Se Guilhotina de Noxus causar o golpe final, seu Tempo de Recarga é zerado por um breve momento.",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/DariusExecute.png",
+                    "alcance": "460"
+                }]
+        },
+        {   "Nome": "Ashe",
+            "Imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+            "Regiao": "Freljord",
+            "Apelido": "A Arqueira do Gelo",
+            "Habilidade_Passiva": [{
+                "titulo": "Tiro Congelado",
+                "descricao": "Os ataques de Ashe causam Lentidão a seu alvo, fazendo com que ela cause ainda mais dano a ele. Os acertos críticos de Ashe não causam dano adicional, mas aplicam Lentidão fortalecida a seu alvo.",
+                "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/passive/Ashe_P.png"
+            }]  ,
+            "Habilidades":[
+                {
+                    "titulo": "Concentração",
+                    "custo": "Custo: 50 de Mana, 4 de Foco",
+                    "descricao": "Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito.",
+                    "alcance": "400",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/AsheQ.png"
+                },{
+                    "titulo": "Rajada",
+                    "custo": "50 de mana",
+                    "descricao": "Ashe dispara 9 flechas em área de cone para aumentar o dano. Também aplica Tiro Congelado.",
+                    "alcance": "1200",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/Volley.png"
+                },{
+                    "titulo": "Olhar do Falcão",
+                    "custo": "Custo: Sem Custo",
+                    "descricao": "Ashe envia seu Espírito do Falcão em uma missão de exploração em qualquer ponto do mapa.Revela o terreno enquanto percorre seu trajeto em direção ao local alvo em qualquer parte do mapa. Concede visão por 5 segundos. Ashe pode acumular até 2 cargas de Olhar do Falcão.",
+                    "alcance": "25000",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/AsheSpiritOfTheHawk.png"
+                },
+                {   "titulo":"Flecha de Cristal Encantada",
+                    "custo": "100 de Mana",
+                    "descricao": "Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão.",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/EnchantedCrystalArrow.png",
+                    "alcance": "25000"
+                }]
+        }
+    ]
+}

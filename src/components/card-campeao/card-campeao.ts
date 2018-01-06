@@ -16,4 +16,8 @@ export class CardCampeaoComponent {
 
   }
 
+  mostrarCampeao():void{
+    console.log(this.CampeaoAtual);
+  }
+
 }

@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>{{campeaoAtual.Nome}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <card-campeao [CampeaoAtual]="campeaoAtual"></card-campeao>
+    <ion-grid>
+        <ion-row>
+          <ion-col *ngFor="let habilidadeCampeao of habilidades" col-lg-3 col-md-4 col-sm-6   col-12>
+              <habilidade-campeao [HabilidadeCampeaoSelecionado]="habilidadeCampeao"></habilidade-campeao>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>  
+  
+    
+ 
+</ion-content>
