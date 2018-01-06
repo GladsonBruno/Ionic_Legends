@@ -71,6 +71,115 @@
                     "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/EnchantedCrystalArrow.png",
                     "alcance": "25000"
                 }]
+        },{
+            "Nome": "Graves",
+            "Imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
+            "Regiao": "Águas de Sentinela",
+            "Apelido": "O Foragido",
+            "Habilidade_Passiva": [{
+                "titulo": "Nova Destino",
+                "descricao": "A escopeta de Graves carrega até duas cápsulas. Após dispará-las, ele precisa recarregar. Cada ataque faz diversos disparos em área de cone. Atingir um inimigo com mais de um disparo causa dano adicional. Esses projéteis não podem atravessar unidades.",
+                "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/passive/GravesTrueGrit.png"
+            }]  ,
+            "Habilidades":[
+                {
+                    "titulo": "Fim da Linha",
+                    "custo": "Custo: 60/70/80/90/100 de Mana",
+                    "descricao": "Graves dispara um projétil explosivo que detona após 2 segundos, ou 0,2 segundos caso atinja terreno.",
+                    "alcance": "925",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/GravesQLineSpell.png"
+                },{
+                    "titulo": "Cortina de Fumaça",
+                    "custo": "Custo: 70/75/80/85/90 de Mana",
+                    "descricao": "Graves lança uma bomba de fumaça numa área alvo criando uma nuvem de fumaça. Inimigos dentro da fumaça tem área de visão e Velocidade de Movimento reduzidos.",
+                    "alcance": "950",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/GravesSmokeGrenade.png"
+                },{
+                    "titulo": "Saque Rápido",
+                    "custo": "Custo: 40 de Mana",
+                    "descricao": "Graves avança em linha reta, recebendo Armadura adicional por muitos segundos. Se Graves avançar em direção a um Campeão inimigo, ele recebe dois acúmulos de Bravura Indômita. Atingir inimigos com ataques básicos reduz o Tempo de Recarga dessa habilidade e redefine o efeito de resistência.",
+                    "alcance": "425",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/GravesMove.png"
+                },
+                {   "titulo":"Efeito Colateral",
+                    "custo": "100 de Mana",
+                    "descricao": "Graves atira um projétil explosivo que causa muito dano ao primeiro campeão que acertar. Após atingir um campeão ou chegar ao seu alcance máximo, o projétil explode, causando dano em uma área em cone.",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/GravesChargeShot.png",
+                    "alcance": "1000"
+                }]
+        },
+        {   "Nome": "Ashe",
+            "Imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+            "Regiao": "Freljord",
+            "Apelido": "A Arqueira do Gelo",
+            "Habilidade_Passiva": [{
+                "titulo": "Tiro Congelado",
+                "descricao": "Os ataques de Ashe causam Lentidão a seu alvo, fazendo com que ela cause ainda mais dano a ele. Os acertos críticos de Ashe não causam dano adicional, mas aplicam Lentidão fortalecida a seu alvo.",
+                "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/passive/Ashe_P.png"
+            }]  ,
+            "Habilidades":[
+                {
+                    "titulo": "Concentração",
+                    "custo": "Custo: 50 de Mana, 4 de Foco",
+                    "descricao": "Ashe acumula Foco ao atacar. Quando o Foco chega ao máximo, Ashe pode conjurar Concentração para consumir todos os acúmulos de Foco, aumentando temporariamente sua Velocidade de Ataque e transformando seu ataque básico em uma poderosa rajada de ataques pela duração do efeito.",
+                    "alcance": "400",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/AsheQ.png"
+                },{
+                    "titulo": "Rajada",
+                    "custo": "50 de mana",
+                    "descricao": "Ashe dispara 9 flechas em área de cone para aumentar o dano. Também aplica Tiro Congelado.",
+                    "alcance": "1200",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/Volley.png"
+                },{
+                    "titulo": "Olhar do Falcão",
+                    "custo": "Custo: Sem Custo",
+                    "descricao": "Ashe envia seu Espírito do Falcão em uma missão de exploração em qualquer ponto do mapa.Revela o terreno enquanto percorre seu trajeto em direção ao local alvo em qualquer parte do mapa. Concede visão por 5 segundos. Ashe pode acumular até 2 cargas de Olhar do Falcão.",
+                    "alcance": "25000",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/AsheSpiritOfTheHawk.png"
+                },
+                {   "titulo":"Flecha de Cristal Encantada",
+                    "custo": "100 de Mana",
+                    "descricao": "Ashe dispara um projétil de gelo em linha reta. Se a flecha colidir com um Campeão inimigo, ela causa dano e o atordoa. A duração do atordoamento depende da distância percorrida pela flecha. Além disso, unidades inimigas próximas recebem dano e lentidão.",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/EnchantedCrystalArrow.png",
+                    "alcance": "25000"
+                }]
+        },
+        {
+            "Nome": "Jhin",
+            "Imagem": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+            "Regiao": "Ionia",
+            "Apelido": "O Virtuoso",
+            "Habilidade_Passiva": [{
+                "titulo": "Sussuro",
+                "descricao": "O canhão de Jhin, Sussurro, é um instrumento preciso criado para causar muito dano. Ele dispara com frequência fixa e carrega apenas quatro projéteis. Jhin encanta o projétil final com magia negra para causar acerto crítico e dano adicional de execução. Sempre que a Sussurro causa acerto crítico, ela inspira Jhin com Velocidade de Movimento.",
+                "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/passive/Jhin_P.png"
+            }]  ,
+            "Habilidades":[
+                {
+                    "titulo": "Granada Dançante",
+                    "custo": "Custo: 40/45/50/55/60 de Mana",
+                    "descricao": "Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate.",
+                    "alcance": "550",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/JhinQ.png"
+                },{
+                    "titulo": "Florescer Mortal",
+                    "custo": "Custo: 70/75/80/85/90 de Mana",
+                    "descricao": "Jhin brande sua bengala, fazendo um disparo único com incrível alcance. Ele atravessa tropas e monstros, mas para no primeiro campeão atingido. Se o alvo foi recentemente atingido pelos aliados de Jhin, armadilhas de lótus ou ataques básicos, ele será enraizado.",
+                    "alcance": "3000",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/JhinW.png"
+                },{
+                    "titulo": "Audiência Cativa",
+                    "custo": "Custo: 30/35/40/45/50 de Mana",
+                    "descricao": "Jhin posiciona uma armadilha de lótus invisível que floresce ao ser pisada. Ela reduz a velocidade de inimigos próximos antes de causar dano com uma explosão de pétalas serrilhadas.",
+                    "alcance": "750",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/JhinE.png"
+                },
+                {   "titulo":"Aclamação",
+                    "custo": "100 de Mana",
+                    "descricao": "Jhin canaliza, transformando a Sussurro em um mega-canhão de ombro. Ela é capaz de fazer 4 super disparos com extremo alcance que atravessam tropas e monstros, mas que param no primeiro campeão atingido. A Sussurro mutila os inimigos atingidos, o que reduz sua velocidade e aumenta o dano de execução. O 4º disparo é feito com perfeição, de poder épico e garante um acerto crítico.",
+                    "imagem": "https://ddragon.leagueoflegends.com/cdn/7.24.2/img/spell/JhinR.png",
+                    "alcance": "25000"
+                }]
         }
     ]
 }
